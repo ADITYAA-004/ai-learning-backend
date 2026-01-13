@@ -1,7 +1,7 @@
 const Course = require('../models/Course');
 const Enrollment = require('../models/Enrollment');
 const Progress = require('../models/Progress');
-const User = require('../models/User');
+const User = require('../models/user');
 const { askLLM } = require('../services/aiService');
 const AIChat = require('../models/AIChat');
 const PDFText = require('../models/PDFText');

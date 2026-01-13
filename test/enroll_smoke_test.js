@@ -84,7 +84,7 @@ async function run() {
     // Cleanup: remove test users, course, enrollments directly from DB
     try {
       await mongoose.connect(process.env.MONGO_URI);
-      const User = require('../models/User');
+      const User = require('../models/user');
       const Course = require('../models/Course');
       const Enrollment = require('../models/Enrollment');
 
